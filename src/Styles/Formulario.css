@@ -1,0 +1,98 @@
+body {
+    background-color: #4d4d4d;
+}
+
+
+/* Estilos del contenedor */
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #fbfbfb;
+    border-radius: 10px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos del título */
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    
+}
+
+/* Estilos del título */
+h2 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    
+}
+
+/* Estilos de etiquetas */
+form label {
+    display: block;
+    color: #fbfbfb;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Estilos de los inputs */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fbfbfb;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Efecto hover y foco en los inputs */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Botón de envío */
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec0000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Efecto hover en el botón */
+.submit-button:hover {
+    background-color: #bb0000;
+}
+
+/* Añadir espaciado entre elementos */
+form label,
+form input {
+    margin-top: 10px;
+}
+
